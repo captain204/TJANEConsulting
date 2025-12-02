@@ -22,8 +22,8 @@ export default function Footer() {
               <Image
                src="/l.jpeg"// 🔁 replace with your actual logo in /public
                 alt="TJANE Health Logo"
-                width={70}
-                height={70}
+                width={100}
+                height={100}
                 className="rounded-lg"
               />
               <div className="border-l-2 border-gray-400 pl-3 ml-2">
