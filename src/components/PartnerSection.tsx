@@ -27,7 +27,7 @@ export default function PartnerForSuccess() {
               <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-4">
                 Partner for Success
               </h2>
-              <p className="text-gray-600 leading-relaxed">
+              <p className="text-gray-600 text-lg leading-relaxed">
                 At{" "}
                 <span className="font-semibold text-gray-800">
                   TJane Health Consulting

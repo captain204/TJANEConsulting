@@ -129,7 +129,7 @@ export default function Footer() {
            
               <li>
                 <Link
-                  href="/compliance-and-training"
+                  href="/compliance-training"
                   className="text-gray-300 hover:text-emerald-400 transition-colors"
                 >
 
