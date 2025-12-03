@@ -24,14 +24,13 @@ export default function Navbar() {
 
   const pathname = usePathname();
 
-  
   const handleLinkClick = () => {
     setDrawerOpen(false);
     setServicesOpen(false);
     setAboutOpen(false);
   };
 
-  const isActive = (path:any) => pathname === path;
+  const isActive = (path: any) => pathname === path;
 
   useEffect(() => {
     const handleScroll = () => setScrolled(window.scrollY > 20);
@@ -62,7 +61,9 @@ export default function Navbar() {
               href="/"
               onClick={handleLinkClick}
               className={`flex items-center justify-between text-lg font-semibold transition-colors group ${
-                isActive("/") ? "text-green-400" : "text-white hover:text-green-400"
+                isActive("/")
+                  ? "text-green-400"
+                  : "text-white hover:text-green-400"
               }`}
             >
               <span>Home</span>
@@ -72,7 +73,12 @@ export default function Navbar() {
                 stroke="currentColor"
                 viewBox="0 0 24 24"
               >
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7"/>
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth={2}
+                  d="M9 5l7 7-7 7"
+                />
               </svg>
             </Link>
 
@@ -112,7 +118,9 @@ export default function Navbar() {
                       >
                         <ClipboardList className="w-6 h-6 text-green-400" />
                         <div>
-                          <p className="font-semibold text-base">Credentialling</p>
+                          <p className="font-semibold text-base">
+                            Credentialling
+                          </p>
                           <p className="text-sm text-slate-400 leading-snug">
                             Verify provider details with speed and precision
                           </p>
@@ -133,7 +141,9 @@ export default function Navbar() {
                       >
                         <BarChart3 className="w-6 h-6 text-green-400" />
                         <div>
-                          <p className="font-semibold text-base">Billing Audit</p>
+                          <p className="font-semibold text-base">
+                            Billing Audit
+                          </p>
                           <p className="text-sm text-slate-400 leading-snug">
                             Audit billing records for accuracy and correction
                           </p>
@@ -204,7 +214,8 @@ export default function Navbar() {
                             Compliance & Training
                           </p>
                           <p className="text-sm text-slate-400 leading-snug">
-                            Strengthen staff knowledge for safe, compliant operation
+                            Strengthen staff knowledge for safe, compliant
+                            operation
                           </p>
                         </div>
                       </Link>
@@ -225,8 +236,18 @@ export default function Navbar() {
               }`}
             >
               <span>About Us</span>
-              <svg className="w-5 h-5 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7"/>
+              <svg
+                className="w-5 h-5 group-hover:translate-x-1 transition-transform"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth={2}
+                  d="M9 5l7 7-7 7"
+                />
               </svg>
             </Link>
 
@@ -241,8 +262,18 @@ export default function Navbar() {
               }`}
             >
               <span>Testimonials</span>
-              <svg className="w-5 h-5 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7"/>
+              <svg
+                className="w-5 h-5 group-hover:translate-x-1 transition-transform"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth={2}
+                  d="M9 5l7 7-7 7"
+                />
               </svg>
             </Link>
 
@@ -257,8 +288,18 @@ export default function Navbar() {
               }`}
             >
               <span>Contact Us</span>
-              <svg className="w-5 h-5 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7"/>
+              <svg
+                className="w-5 h-5 group-hover:translate-x-1 transition-transform"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth={2}
+                  d="M9 5l7 7-7 7"
+                />
               </svg>
             </Link>
 
@@ -284,13 +325,23 @@ export default function Navbar() {
       >
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-full">
           <div className="flex justify-between items-center h-full">
-            <Link href="/" onClick={handleLinkClick} className="flex items-center">
-              <Image src="/l.jpeg" alt="THC Logo" width={200} height={200} className="object-contain" />
+            <Link
+              href="/"
+              onClick={handleLinkClick}
+              className="flex items-center"
+            >
+              <Image
+                src="/l.jpeg"
+                alt="THC Logo"
+                width={200}
+                height={200}
+                className="object-contain"
+              />
             </Link>
 
             {/* Desktop Nav */}
-            <div className="hidden lg:flex items-center space-x-32">
-              <div
+            <div className="hidden lg:flex items-center space-x-10">
+              {/* <div
                 className="relative"
                 onMouseEnter={() => setSpecialtyDropdownOpen(true)}
                 onMouseLeave={() => setSpecialtyDropdownOpen(false)}
@@ -312,9 +363,9 @@ export default function Navbar() {
                     </div>
                   </div>
                 )}
-              </div>
+              </div> */}
 
-              <div
+              {/* <div
                 className="relative"
                 onMouseEnter={() => setPracticeDropdownOpen(true)}
                 onMouseLeave={() => setPracticeDropdownOpen(false)}
@@ -339,11 +390,15 @@ export default function Navbar() {
                     </div>
                   </div>
                 )}
-              </div>
+              </div> */}
 
-              <button className="bg-green-600 hover:bg-green-700 text-white px-8 py-3 rounded-full font-semibold">
-                Free Analysis
+              <Link href="/contact-us">
+
+              <button className="bg-green-700 cursor-pointer rounded-full hover:bg-green-900 text-white px-4 py-3 font-semibold">
+                Partner With Us Today
               </button>
+
+              </Link>
 
               {/* Drawer toggle */}
               <button
@@ -356,7 +411,11 @@ export default function Navbar() {
                   animate={{ opacity: 1, rotate: 0 }}
                   transition={{ duration: 0.2 }}
                 > */}
-                  {drawerOpen ? <X className="w-7 h-7" /> : <Menu className="w-7 h-7" />}
+                {drawerOpen ? (
+                  <X className="w-7 h-7" />
+                ) : (
+                  <Menu className="w-7 h-7" />
+                )}
                 {/* </motion.div> */}
               </button>
             </div>
@@ -372,7 +431,11 @@ export default function Navbar() {
                 animate={{ opacity: 1, rotate: 0 }}
                 transition={{ duration: 0.2 }}
               >
-                {drawerOpen ? <X className="w-7 h-7" /> : <Menu className="w-7 h-7" />}
+                {drawerOpen ? (
+                  <X className="w-7 h-7" />
+                ) : (
+                  <Menu className="w-7 h-7" />
+                )}
               </motion.div>
             </button>
           </div>
