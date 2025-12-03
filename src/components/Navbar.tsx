@@ -393,11 +393,28 @@ export default function Navbar() {
               </div> */}
 
               <Link href="/contact-us">
+                <button
+                  className="
+      relative overflow-hidden 
+      px-6 py-3 
+      rounded-xl 
+      cursor-pointer
+      font-semibold 
+      text-white 
+      bg-green-700 
+      shadow-lg 
+      hover:bg-green-800 
+      transition-all 
+      duration-300 
+      hover:shadow-[0_0_20px_rgba(34,197,94,0.6)]
+      hover:scale-105
+    "
+                >
+                  {/* GLOW EFFECT */}
+                  <span className="absolute inset-0 bg-gradient-to-r from-green-500 to-green-300 opacity-0 blur-xl transition-opacity duration-500 group-hover:opacity-40"></span>
 
-              <button className="bg-green-700 cursor-pointer rounded-full hover:bg-green-900 text-white px-4 py-3 font-semibold">
-                Partner With Us Today
-              </button>
-
+                  <span className="relative z-10">Partner With Us Today</span>
+                </button>
               </Link>
 
               {/* Drawer toggle */}

@@ -23,7 +23,7 @@ export default function SplashScreen() {
             alt="logo"
             width={200}
             height={200}
-            className="mb-6 rounded-2xl shadow-lg"
+            className="mb-6 rounded-xl shadow-lg"
           />
         </motion.div>
 
