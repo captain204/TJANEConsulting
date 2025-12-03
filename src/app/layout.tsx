@@ -6,6 +6,7 @@ import Footer from "@/components/Footer";
 import NewsletterSubscribe from "@/components/NewsletterSubscribe";
 import BottomTabs from "@/components/BottomTabs";
 import { Toaster } from "sonner";
+import SplashWrapper from "@/components/Splash/SplashWrapper";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -31,10 +32,12 @@ export default function RootLayout({
     <html lang="en">
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        
       >
+
+          <SplashWrapper>
         <Navbar />
 
-        {/* GLOBAL MAX WIDTH WRAPPER */}
         <div className="max-w-7xl mx-auto px-2 w-full">
           {children}
           <NewsletterSubscribe />
@@ -42,8 +45,8 @@ export default function RootLayout({
 
         <Footer />
         <BottomTabs />
+        </SplashWrapper>
 
-        {/* Sonner global toaster */}
         <Toaster richColors position="top-right" />
       </body>
     </html>
