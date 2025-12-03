@@ -5,34 +5,30 @@ import Link from "next/link";
 import {
   FaFacebookF,
   FaInstagram,
-  FaLinkedinIn,
-  FaTwitter,
 } from "react-icons/fa";
 
 export default function Footer() {
   return (
     <footer className="bg-[#2c3e50] text-white">
-      {/* Main Footer Content */}
       <div className="max-w-7xl mx-auto px-6 py-12">
-        {/* Top Section with Logo and CTA */}
         <div className="flex flex-col md:flex-row justify-between items-start md:items-center mb-12 pb-8 border-b border-gray-600">
           {/* Logo */}
           <div className="mb-6 md:mb-0">
             <div className="flex items-center space-x-3">
               <Image
-               src="/l.jpeg"// 🔁 replace with your actual logo in /public
+                src="/l.jpeg"
                 alt="TJANE Health Logo"
                 width={220}
                 height={220}
                 className="rounded-lg"
               />
-              <div className="border-l-2 border-gray-400 pl-3 ml-2">
+              {/* <div className="border-l-2 border-gray-400 pl-3 ml-2">
                 <div className="text-sm leading-tight">
                   <div className="font-semibold">TJANE Health</div>
                   <div className="font-semibold">Consulting </div>
                   <div className="font-semibold">Firm, L.L.C.</div>
                 </div>
-              </div>
+              </div> */}
             </div>
           </div>
 
@@ -97,7 +93,6 @@ export default function Footer() {
                   Our Services
                 </a>
               </li>
-            
             </ul>
           </div>
 
@@ -105,9 +100,7 @@ export default function Footer() {
           <div>
             <h3 className="text-lg font-semibold mb-4">Our Services</h3>
             <ul className="space-y-2">
-           
-
-           <li>
+              <li>
                 <Link
                   href="/healthcare-operations"
                   className="text-gray-300 hover:text-emerald-400 transition-colors"
@@ -115,7 +108,7 @@ export default function Footer() {
                   Healthcare Operations
                 </Link>
               </li>
-           
+
               <li>
                 <Link
                   href="/revenue-cycle-management"
@@ -125,17 +118,12 @@ export default function Footer() {
                 </Link>
               </li>
 
-
-           
               <li>
                 <Link
                   href="/compliance-training"
                   className="text-gray-300 hover:text-emerald-400 transition-colors"
                 >
-
                   Compliance and Training
-
-
                 </Link>
               </li>
 
@@ -190,15 +178,20 @@ export default function Footer() {
         <div className="max-w-7xl mx-auto px-6">
           <div className="flex flex-col md:flex-row justify-between items-center text-sm text-gray-400">
             <p className="mb-2 md:mb-0">
-              TJANE Consulting. All Rights Reserved ©
-              2025
+              TJANE Consulting. All Rights Reserved © 2025
             </p>
             <div className="flex space-x-4">
-              <Link href="/privacy-policy" className="hover:text-emerald-400 transition-colors">
+              <Link
+                href="/privacy-policy"
+                className="hover:text-emerald-400 transition-colors"
+              >
                 Privacy Policy
               </Link>
               <span>-</span>
-              <Link href="/services" className="hover:text-emerald-400 transition-colors">
+              <Link
+                href="/services"
+                className="hover:text-emerald-400 transition-colors"
+              >
                 Services
               </Link>
               <span>-</span>

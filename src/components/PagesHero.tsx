@@ -18,7 +18,7 @@ export default function HeroSection({
   // backgroundImage = "/hero.png",
 }: HeroSectionProps) {
   return (
-    <section className="relative w-full h-[30vh] md:h-[70vh] bg-black flex flex-col justify-center text-white overflow-hidden">
+    <section className="relative w-full h-[50vh] md:h-[70vh] bg-black flex flex-col justify-center text-white overflow-hidden">
       {/* Background Image */}
       <motion.div
         className="absolute inset-0"
