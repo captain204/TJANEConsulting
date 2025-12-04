@@ -78,8 +78,8 @@ export default function HISPromoSection() {
                 TJane Health Consulting
               </span>
               , we believe every healthcare facility deserves structure,
-              clarity, and growth. We work hand in hand with hospitals,
-              hospitals, and private practices to streamline how they run, from
+              clarity, and growth. We work hand in hand with health care
+              operations and private practices to streamline how they run, from
               the front desk to finance.
             </p>
             <p className="text-gray-600 leading-relaxed mt-3 text-lg">
@@ -114,7 +114,7 @@ export default function HISPromoSection() {
               Workflow Efficiency
             </p>
             <p className="text-xl text-gray-500 mt-2 text-center">
-              On average, hospitals working with TJane Health Consulting
+              On average, health care operations working with TJane Health Consulting
               experience a 20% boost in efficiency and smoother day-to-day
               operations.
             </p>

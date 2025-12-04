@@ -6,7 +6,7 @@ export default function HealthHero() {
       <HeroSection
         breadcrumb="Healthcare Operations"
         title="Healthcare Operations"
-        subtitle="We streamline your clinical and administrative workflows."
+        subtitle="We streamline your health care operations and administrative workflows."
       />
     </main>
   );

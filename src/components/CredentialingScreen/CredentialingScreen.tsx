@@ -42,7 +42,7 @@ export default function CredentialingScreen() {
           <p className="leading-relaxed text-lg">
             Our team of highly skilled specialists brings years of hands-on experience
             across multiple healthcare systems and provider types. We work closely with
-            hospitals, private practices, group practices, and healthcare organizations to
+            health care operations, private practices, group practices, and healthcare organizations to
             ensure that every credentialing and contracting requirement is handled with
             accuracy and efficiency.
           </p>

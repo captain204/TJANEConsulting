@@ -9,7 +9,7 @@ export default function HealthcareBlogListing() {
       image: "/list2.png",
       tags: ["healthcare buissiness Operations", "Workflow Optimization"],
       title:
-        "5 Common Workflow Bottlenecks in Hospitals  and How to Fix Them Fast",
+        "5 Common Workflow Bottlenecks in health care operations  and How to Fix Them Fast",
       link: "#",
     },
     {

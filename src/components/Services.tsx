@@ -173,7 +173,7 @@ export default function ServicesSection() {
                 <li className="flex items-start gap-2">
                   <BsCheckCircleFill className="text-green-600 mt-1 flex-shrink-0" />
                   <span>
-                    Over 100 hospitals supported through operational
+                    Over 100 health care operations supported through operational
                     restructuring
                   </span>
                 </li>
@@ -186,7 +186,7 @@ export default function ServicesSection() {
                 <li className="flex items-start gap-2">
                   <BsCheckCircleFill className="text-green-600 mt-1 flex-shrink-0" />
                   <span>
-                    Trusted by hospitals, labs, and diagnostic centers across
+                    Trusted by labs, and diagnostic centers across
                     multiple states
                   </span>
                 </li>

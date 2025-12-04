@@ -9,15 +9,15 @@ const faqs = [
     question: "What exactly does TJane Health Consulting do?",
     answer: (
       <p className="text-gray-700 mb-3">
-        We help hospitals and diagnostic centers fix workflow issues, streamline
-        billing, and train teams to operate with clarity and confidence. From
-        front desk coordination to back-office finance, we design practical
-        systems that improve daily efficiency and revenue flow.
+        We help Health Care Operations and diagnostic centers fix workflow
+        issues, streamline billing, and train teams to operate with clarity and
+        confidence. From front desk coordination to back-office finance, we
+        design practical systems that improve daily efficiency and revenue flow.
       </p>
     ),
   },
   {
-    question: "How will consulting improve my hospital’s performance?",
+    question: "How will consulting improve my Buissiness Performance",
     answer: (
       <>
         <p className="text-gray-700 mb-3">
@@ -32,19 +32,19 @@ const faqs = [
           </li>
         </ul>
         <p className="text-gray-700">
-          The result? A more structured, confident, and productive healthcare buissiness that
-          runs smoothly every single day.
+          The result? A more structured, confident, and productive healthcare
+          buissiness that runs smoothly every single day.
         </p>
       </>
     ),
   },
   {
-    question: "Do you work with small private practices or only hospitals?",
+    question: "Do you work with small private practices only?",
     answer: (
       <p className="text-gray-700">
-        We work with all sizes, from solo practitioners and small hospitals to
-        multi-branch hospitals. Every healthcare facility deserves a clear plan
-        for growth, no matter the scale.
+        We work with all sizes, from solo practitioners to big health care
+        business . Every healthcare facility deserves a clear plan for growth no
+        matter the scale
       </p>
     ),
   },
@@ -63,10 +63,10 @@ const faqs = [
     question: "Can you train our staff directly?",
     answer: (
       <p className="text-gray-700">
-        Yes! We offer hands-on training for both administrative and hospital
-        staff. Our sessions focus on communication, patient flow management, and
-        billing accuracy, so your team can deliver with structure and
-        confidence.
+        Yes! We offer hands on training for both administrative and non
+        administrative staff. Our sessions focus on communication,patient flow
+        management,and billing accuracy, so your team can deliver with structure
+        and confidence
       </p>
     ),
   },

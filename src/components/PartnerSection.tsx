@@ -126,7 +126,7 @@ export default function PartnerForSuccess() {
             <div className="relative h-[400px] sm:h-[500px] lg:h-[600px] rounded-lg overflow-hidden shadow-lg">
               <Image
                 src="/doctor.jpeg"
-                alt="Healthcare professionals collaborating in a hospital"
+                alt="Healthcare professionals collaborating in a health care operations"
                 fill
                 className="object-cover"
                 sizes="(max-width: 768px) 100vw, 50vw"

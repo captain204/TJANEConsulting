@@ -29,7 +29,7 @@ export default function AboutHIS() {
             simplify and strengthen their operations from the inside out.
           </p>
           <p className="text-gray-700 leading-relaxed mb-5 text-lg">
-            We’ve worked with both small practices and large hospitals,
+            We’ve worked with both small practices and large health care operations,
             resolving issues that directly affect patient experience and
             revenue. From staff training to billing optimization, we don’t just
             advise, we stay involved until measurable results are achieved.

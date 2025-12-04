@@ -95,7 +95,7 @@ export default function HealthcareOperationsPage() {
           <ServiceCard
             icon={<FaHeartbeat size={30} />}
             title="Documentation Standards"
-            desc="Training on clinical documentation accuracy, integrity, completeness, and standardized structures." />
+            desc="Training on health care operations documentation accuracy, integrity, completeness, and standardized structures." />
 
           <ServiceCard
             icon={<FaShieldAlt size={30} />}
