@@ -425,18 +425,18 @@ export default function Navbar() {
               className="lg:hidden text-slate-800 cursor-pointer"
               onClick={() => setDrawerOpen(!drawerOpen)}
             >
-              <motion.div
+              {/* <motion.div
                 key={drawerOpen ? "x" : "menu"}
                 initial={{ opacity: 0, rotate: -90 }}
                 animate={{ opacity: 1, rotate: 0 }}
                 transition={{ duration: 0.2 }}
-              >
+              > */}
                 {drawerOpen ? (
                   <X className="w-7 h-7" />
                 ) : (
                   <Menu className="w-7 h-7" />
                 )}
-              </motion.div>
+              {/* </motion.div> */}
             </button>
           </div>
         </div>
