@@ -9,6 +9,7 @@ import {
   ClipboardList,
   BarChart3,
   BookOpen,
+  Building2,
 } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
 import Link from "next/link";
@@ -220,6 +221,39 @@ export default function Navbar() {
                         </div>
                       </Link>
                     </motion.div>
+
+
+
+
+{/* Healthcare Business Start-Up */}
+<motion.div whileHover={{ scale: 1.03, x: 4 }}>
+  <Link
+    href="/healthcare-business"
+    onClick={handleLinkClick}
+    className={`flex items-start gap-3 transition-colors ${
+      isActive("/healthcare-business")
+        ? "text-green-400"
+        : "text-slate-200 hover:text-green-400"
+    }`}
+  >
+    <Building2 className="w-10 h-10 text-green-400" />
+
+    <div>
+      <p className="font-semibold text-base">
+        Health Care Business Start-Up  From business registration to full licensure
+      </p>
+
+      <p className="text-sm text-slate-400 leading-snug">
+        Launch your healthcare
+        business with expert guidance.
+      </p>
+    </div>
+  </Link>
+</motion.div>
+
+
+
+
                   </motion.div>
                 )}
               </AnimatePresence>
@@ -331,7 +365,7 @@ export default function Navbar() {
               className="flex items-center"
             >
               <Image
-                src="/l.jpeg"
+                src="/logos.jpeg"
                 alt="THC Logo"
                 width={200}
                 height={200}
@@ -341,57 +375,6 @@ export default function Navbar() {
 
             {/* Desktop Nav */}
             <div className="hidden lg:flex items-center space-x-10">
-              {/* <div
-                className="relative"
-                onMouseEnter={() => setSpecialtyDropdownOpen(true)}
-                onMouseLeave={() => setSpecialtyDropdownOpen(false)}
-              >
-                <button className="flex items-center space-x-1 text-slate-800 hover:text-green-500 font-semibold text-base transition-colors">
-                  <span>Specialty Expertise</span>
-                  <ChevronDown className="w-4 h-4" />
-                </button>
-
-                {specialtyDropdownOpen && (
-                  <div className="absolute top-full left-0 mt-2 w-80 bg-white shadow-xl border-t-4 border-green-500 rounded-b-md z-50">
-                    <div className="py-4">
-                      <a className="block px-6 py-3 text-slate-800 hover:bg-gray-50 hover:text-green-500 font-medium transition-colors">
-                        Expert Services for Orthopedic Practice
-                      </a>
-                      <a className="block px-6 py-3 text-slate-800 hover:bg-gray-50 hover:text-green-500 font-medium transition-colors">
-                        Expert Services for Radiology Practices
-                      </a>
-                    </div>
-                  </div>
-                )}
-              </div> */}
-
-              {/* <div
-                className="relative"
-                onMouseEnter={() => setPracticeDropdownOpen(true)}
-                onMouseLeave={() => setPracticeDropdownOpen(false)}
-              >
-                <button className="flex items-center space-x-1 text-slate-800 hover:text-green-500 font-semibold text-base transition-colors">
-                  <span>All Practice Services</span>
-                  <ChevronDown className="w-4 h-4" />
-                </button>
-
-                {practiceDropdownOpen && (
-                  <div className="absolute top-full left-0 mt-2 w-80 bg-white shadow-xl border-t-4 border-green-500 rounded-b-md z-50">
-                    <div className="py-4">
-                      <a className="block px-6 py-3 text-slate-800 hover:bg-gray-50 hover:text-green-500 font-medium transition-colors">
-                        Revenue Cycle Management Services
-                      </a>
-                      <a className="block px-6 py-3 text-slate-800 hover:bg-gray-50 hover:text-green-500 font-medium transition-colors">
-                        Practice Management & Consulting
-                      </a>
-                      <a className="block px-6 py-3 text-slate-800 hover:bg-gray-50 hover:text-green-500 font-medium transition-colors">
-                        Coding Education & Consulting
-                      </a>
-                    </div>
-                  </div>
-                )}
-              </div> */}
-
               <Link href="/contact-us">
                 <button
                   className="

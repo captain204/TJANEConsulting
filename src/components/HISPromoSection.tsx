@@ -77,7 +77,7 @@ export default function HISPromoSection() {
               <span className="font-semibold text-gray-800">
                 TJane Health Consulting
               </span>
-              , we believe every healthcare facility deserves structure,
+              , we believe every healthcare business deserves structure,
               clarity, and growth. We work hand in hand with health care
               operations and private practices to streamline how they run, from
               the front desk to finance.

@@ -19,7 +19,7 @@ export default function SplashScreen() {
           transition={{ duration: 0.9 }}
         >
           <Image
-            src="/l.jpeg"
+            src="/logos.jpeg"
             alt="logo"
             width={200}
             height={200}

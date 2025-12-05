@@ -49,7 +49,7 @@ export default function BillingServicesScreen() {
               practice.
             </p>
             <p className="text-lg leading-relaxed mt-4">
-              Every healthcare facility operates differently, which is why we
+              Every healthcare business operates differently, which is why we
               don’t believe in one-size-fits-all recommendations. Our
               consultants will thoroughly review your existing processes,
               evaluate where gaps or inefficiencies exist, and develop

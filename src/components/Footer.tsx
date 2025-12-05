@@ -16,7 +16,7 @@ export default function Footer() {
           <div className="mb-6 md:mb-0">
             <div className="flex items-center space-x-3">
               <Image
-                src="/l.jpeg"
+                src="/logos.jpeg"
                 alt="TJANE Health Logo"
                 width={220}
                 height={220}

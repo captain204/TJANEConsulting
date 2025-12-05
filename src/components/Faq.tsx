@@ -43,7 +43,7 @@ const faqs = [
     answer: (
       <p className="text-gray-700">
         We work with all sizes, from solo practitioners to big health care
-        business . Every healthcare facility deserves a clear plan for growth no
+        business . Every healthcare business deserves a clear plan for growth no
         matter the scale
       </p>
     ),
