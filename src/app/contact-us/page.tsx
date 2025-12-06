@@ -62,7 +62,7 @@ export default function ContactSection() {
                 <span className="font-semibold md:text-2xl">Call Today</span>
               </div>
               <p className="text-white font-semibold text-base md:text-lg">
-                847-720-7499
+                +1 443-560-0550
               </p>
             </div>
           </motion.div>

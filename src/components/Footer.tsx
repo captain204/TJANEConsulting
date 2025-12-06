@@ -2,10 +2,7 @@
 
 import Image from "next/image";
 import Link from "next/link";
-import {
-  FaFacebookF,
-  FaInstagram,
-} from "react-icons/fa";
+import { FaFacebookF, FaInstagram } from "react-icons/fa";
 
 export default function Footer() {
   return (
@@ -51,15 +48,6 @@ export default function Footer() {
             >
               <FaInstagram size={20} />
             </a>
-            {/* <a href="#" className="hover:text-emerald-400 transition-colors">
-              <FaLinkedinIn size={20} />
-            </a>
-            <a href="#" className="hover:text-emerald-400 transition-colors">
-              <FaTwitter size={20} />
-            </a> */}
-            {/* <button className="ml-4 bg-emerald-500 hover:bg-emerald-600 text-white px-6 py-2 rounded-full font-medium transition-colors">
-              Free Analysis
-            </button> */}
           </div>
         </div>
 
@@ -151,7 +139,7 @@ export default function Footer() {
           <div>
             <h3 className="text-lg font-semibold mb-4">Contact Us</h3>
             <div className="space-y-3 text-gray-300">
-              <p>847-720-7499</p>
+              <p>+1 443-560-0550</p>
               <p className="font-semibold text-white">
                 TJANE Health Headquarters
               </p>
